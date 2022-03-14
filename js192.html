@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title> JS and HTML</title>
+        <style>
+            div {
+              border: 1px solid black;
+              width: 200px;
+              height: 100px;
+              overflow: scroll;
+            }
+            </style>
+    </head>
+    <body>
+        <p onclick="this.innerHTML='CAT'"></p>
+           
+        <h1 id="id1"> Hi welcome</h1>
+        
+        <p id="myP" onmousedown="mouseDown()" onmouseup="mouseUp()">
+        I love cats </p>
+        <input type="text" onkeypress="Cat()">
+
+        <script>
+            function Cat() {
+  alert("Hi I am cat");
+
+  function mouseDown() {
+  document.getElementById("myP").style.color = "red";
+}
+
+function mouseUp() {
+  document.getElementById("myP").style.color = "green";
+}
+}
+        </script>
+        
+        
+        
+        
+        
+    
+    
+        
+        
+        
+
+    </body>
+</html>

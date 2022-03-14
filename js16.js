@@ -6,7 +6,7 @@ constructor(name,homeTown,power,health,specialAttack,level){
     this.health = health;
     this.specialAttack = specialAttack;
     this.level = level
-}
+}      
 dodge(opponet, attack){
     console.log(`${this.name} dodged ${opponet}s ${attack}`)
 } bunnyjump(opponent){
